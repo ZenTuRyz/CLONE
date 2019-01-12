@@ -371,7 +371,7 @@ def lineBot(op):
                             if mention["M"] not in lists:
                                 lists.append(mention["M"])
                         for ls in lists:
-                            path = "http://dl.profile.loli.naver.jp/" + loli.getContact(ls).pictureStatus
+                            path = "http://dl.profile.line-cdn.net/" + loli.getContact(ls).pictureStatus
                             loli.sendImageWithURL(msg.to, str(path))
                 elif msg.text.lower().startswith("stealvideoprofile "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
@@ -383,10 +383,9 @@ def lineBot(op):
                             if mention["M"] not in lists:
                                 lists.append(mention["M"])
                         for ls in lists:
-                            path = "http://dl.profile.loli.naver.jp/" + loli.getContact(ls).pictureStatus + "/vp"
+                            path = "http://dl.profile.line-cdn.net/" + loli.getContact(ls).pictureStatus + "/vp"
                             loli.sendImageWithURL(msg.to, str(path))
                 elif msg.text.lower().startswith("stealcover "):
-                    if line != None:
                         if 'MENTION' in msg.contentMetadata.keys()!= None:
                             names = re.findall(r'@(\w+)', text)
                             mention = ast.literal_eval(msg.contentMetadata['MENTION'])
