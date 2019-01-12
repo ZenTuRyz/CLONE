@@ -76,14 +76,12 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠♥ ✿✿✿ LOLI ✿✿✿ ♥" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
                   "╠✪〘 Help 〙✪════════" + "\n" + \
                   "╠➥ Help" + "\n" + \
-                  "╠➥ Translate" + "\n" + \
-                  "╠➥ Texttospeech" + "\n" + \
                   "║" + "\n" + \
                   "╠✪〘 Status 〙✪════════" + "\n" + \
                   "╠➥ Restart" + "\n" + \
@@ -151,179 +149,8 @@ def helpmessage():
                   "╠➥ SearchImage「Search」" + "\n" + \
                   "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 Credits By: LOLI  〙"
     return helpMessage
-    
-def helptexttospeech():
-    helpTextToSpeech =   "╔══[ T E X T   T O   S P E E C H ]" + "\n" + \
-                         "╠ af : Afrikaans" + "\n" + \
-                         "╠ sq : Albanian" + "\n" + \
-                         "╠ ar : Arabic" + "\n" + \
-                         "╠ hy : Armenian" + "\n" + \
-                         "╠ bn : Bengali" + "\n" + \
-                         "╠ ca : Catalan" + "\n" + \
-                         "╠ zh : Chinese" + "\n" + \
-                         "╠ zh-cn : Chinese (Mandarin/China)" + "\n" + \
-                         "╠ zh-tw : Chinese (Mandarin/Taiwan)" + "\n" + \
-                         "╠ zh-yue : Chinese (Cantonese)" + "\n" + \
-                         "╠ hr : Croatian" + "\n" + \
-                         "╠ cs : Czech" + "\n" + \
-                         "╠ da : Danish" + "\n" + \
-                         "╠ nl : Dutch" + "\n" + \
-                         "╠ en : English" + "\n" + \
-                         "╠ en-au : English (Australia)" + "\n" + \
-                         "╠ en-uk : English (United Kingdom)" + "\n" + \
-                         "╠ en-us : English (United States)" + "\n" + \
-                         "╠ eo : Esperanto" + "\n" + \
-                         "╠ fi : Finnish" + "\n" + \
-                         "╠ fr : French" + "\n" + \
-                         "╠ de : German" + "\n" + \
-                         "╠ el : Greek" + "\n" + \
-                         "╠ hi : Hindi" + "\n" + \
-                         "╠ hu : Hungarian" + "\n" + \
-                         "╠ is : Icelandic" + "\n" + \
-                         "╠ id : Indonesian" + "\n" + \
-                         "╠ it : Italian" + "\n" + \
-                         "╠ ja : Japanese" + "\n" + \
-                         "╠ km : Khmer (Cambodian)" + "\n" + \
-                         "╠ ko : Korean" + "\n" + \
-                         "╠ la : Latin" + "\n" + \
-                         "╠ lv : Latvian" + "\n" + \
-                         "╠ mk : Macedonian" + "\n" + \
-                         "╠ no : Norwegian" + "\n" + \
-                         "╠ pl : Polish" + "\n" + \
-                         "╠ pt : Portuguese" + "\n" + \
-                         "╠ ro : Romanian" + "\n" + \
-                         "╠ ru : Russian" + "\n" + \
-                         "╠ sr : Serbian" + "\n" + \
-                         "╠ si : Sinhala" + "\n" + \
-                         "╠ sk : Slovak" + "\n" + \
-                         "╠ es : Spanish" + "\n" + \
-                         "╠ es-es : Spanish (Spain)" + "\n" + \
-                         "╠ es-us : Spanish (United States)" + "\n" + \
-                         "╠ sw : Swahili" + "\n" + \
-                         "╠ sv : Swedish" + "\n" + \
-                         "╠ ta : Tamil" + "\n" + \
-                         "╠ th : Thai" + "\n" + \
-                         "╠ tr : Turkish" + "\n" + \
-                         "╠ uk : Ukrainian" + "\n" + \
-                         "╠ vi : Vietnamese" + "\n" + \
-                         "╠ cy : Welsh" + "\n" + \
-                         "╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-                          "Contoh : say-id Nadya Cantik"
-    return helpTextToSpeech
-    
-def helptranslate():
-    helpTranslate =    "╔══[ T R A N S L A T E ]" + "\n" + \
-                       "╠ af : afrikaans" + "\n" + \
-                       "╠ sq : albanian" + "\n" + \
-                       "╠ am : amharic" + "\n" + \
-                       "╠ ar : arabic" + "\n" + \
-                       "╠ hy : armenian" + "\n" + \
-                       "╠ az : azerbaijani" + "\n" + \
-                       "╠ eu : basque" + "\n" + \
-                       "╠ be : belarusian" + "\n" + \
-                       "╠ bn : bengali" + "\n" + \
-                       "╠ bs : bosnian" + "\n" + \
-                       "╠ bg : bulgarian" + "\n" + \
-                       "╠ ca : catalan" + "\n" + \
-                       "╠ ceb : cebuano" + "\n" + \
-                       "╠ ny : chichewa" + "\n" + \
-                       "╠ zh-cn : chinese (simplified)" + "\n" + \
-                       "╠ zh-tw : chinese (traditional)" + "\n" + \
-                       "╠ co : corsican" + "\n" + \
-                       "╠ hr : croatian" + "\n" + \
-                       "╠ cs : czech" + "\n" + \
-                       "╠ da : danish" + "\n" + \
-                       "╠ nl : dutch" + "\n" + \
-                       "╠ en : english" + "\n" + \
-                       "╠ eo : esperanto" + "\n" + \
-                       "╠ et : estonian" + "\n" + \
-                       "╠ tl : filipino" + "\n" + \
-                       "╠ fi : finnish" + "\n" + \
-                       "╠ fr : french" + "\n" + \
-                       "╠ fy : frisian" + "\n" + \
-                       "╠ gl : galician" + "\n" + \
-                       "╠ ka : georgian" + "\n" + \
-                       "╠ de : german" + "\n" + \
-                       "╠ el : greek" + "\n" + \
-                       "╠ gu : gujarati" + "\n" + \
-                       "╠ ht : haitian creole" + "\n" + \
-                       "╠ ha : hausa" + "\n" + \
-                       "╠ haw : hawaiian" + "\n" + \
-                       "╠ iw : hebrew" + "\n" + \
-                       "╠ hi : hindi" + "\n" + \
-                       "╠ hmn : hmong" + "\n" + \
-                       "╠ hu : hungarian" + "\n" + \
-                       "╠ is : icelandic" + "\n" + \
-                       "╠ ig : igbo" + "\n" + \
-                       "╠ id : indonesian" + "\n" + \
-                       "╠ ga : irish" + "\n" + \
-                       "╠ it : italian" + "\n" + \
-                       "╠ ja : japanese" + "\n" + \
-                       "╠ jw : javanese" + "\n" + \
-                       "╠ kn : kannada" + "\n" + \
-                       "╠ kk : kazakh" + "\n" + \
-                       "╠ km : khmer" + "\n" + \
-                       "╠ ko : korean" + "\n" + \
-                       "╠ ku : kurdish (kurmanji)" + "\n" + \
-                       "╠ ky : kyrgyz" + "\n" + \
-                       "╠ lo : lao" + "\n" + \
-                       "╠ la : latin" + "\n" + \
-                       "╠ lv : latvian" + "\n" + \
-                       "╠ lt : lithuanian" + "\n" + \
-                       "╠ lb : luxembourgish" + "\n" + \
-                       "╠ mk : macedonian" + "\n" + \
-                       "╠ mg : malagasy" + "\n" + \
-                       "╠ ms : malay" + "\n" + \
-                       "╠ ml : malayalam" + "\n" + \
-                       "╠ mt : maltese" + "\n" + \
-                       "╠ mi : maori" + "\n" + \
-                       "╠ mr : marathi" + "\n" + \
-                       "╠ mn : mongolian" + "\n" + \
-                       "╠ my : myanmar (burmese)" + "\n" + \
-                       "╠ ne : nepali" + "\n" + \
-                       "╠ no : norwegian" + "\n" + \
-                       "╠ ps : pashto" + "\n" + \
-                       "╠ fa : persian" + "\n" + \
-                       "╠ pl : polish" + "\n" + \
-                       "╠ pt : portuguese" + "\n" + \
-                       "╠ pa : punjabi" + "\n" + \
-                       "╠ ro : romanian" + "\n" + \
-                       "╠ ru : russian" + "\n" + \
-                       "╠ sm : samoan" + "\n" + \
-                       "╠ gd : scots gaelic" + "\n" + \
-                       "╠ sr : serbian" + "\n" + \
-                       "╠ st : sesotho" + "\n" + \
-                       "╠ sn : shona" + "\n" + \
-                       "╠ sd : sindhi" + "\n" + \
-                       "╠ si : sinhala" + "\n" + \
-                       "╠ sk : slovak" + "\n" + \
-                       "╠ sl : slovenian" + "\n" + \
-                       "╠ so : somali" + "\n" + \
-                       "╠ es : spanish" + "\n" + \
-                       "╠ su : sundanese" + "\n" + \
-                       "╠ sw : swahili" + "\n" + \
-                       "╠ sv : swedish" + "\n" + \
-                       "╠ tg : tajik" + "\n" + \
-                       "╠ ta : tamil" + "\n" + \
-                       "╠ te : telugu" + "\n" + \
-                       "╠ th : thai" + "\n" + \
-                       "╠ tr : turkish" + "\n" + \
-                       "╠ uk : ukrainian" + "\n" + \
-                       "╠ ur : urdu" + "\n" + \
-                       "╠ uz : uzbek" + "\n" + \
-                       "╠ vi : vietnamese" + "\n" + \
-                       "╠ cy : welsh" + "\n" + \
-                       "╠ xh : xhosa" + "\n" + \
-                       "╠ yi : yiddish" + "\n" + \
-                       "╠ yo : yoruba" + "\n" + \
-                       "╠ zu : zulu" + "\n" + \
-                       "╠ fil : Filipino" + "\n" + \
-                       "╠ he : Hebrew" + "\n" + \
-                       "╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
-                         "Contoh : tr-id Nadya Cantik"
-    return helpTranslate
 #==============================================================================#
 def lineBot(op):
     try:
@@ -364,29 +191,24 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     loli.sendMessage(to, str(helpMessage))
-                    loli.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
-                elif text.lower() == 'texttospeech':
-                    helpTextToSpeech = helptexttospeech()
-                    loli.sendMessage(to, str(helpTextToSpeech))
-                elif text.lower() == 'translate':
-                    helpTranslate = helptranslate()
-                    loli.sendMessage(to, str(helpTranslate))
+                    loli.sendContact(to, "u5b8ddd05542d867257179cdcd133dbc6")
 #==============================================================================#
                 elif text.lower() == 'speed':
                     start = time.time()
-                    loli.sendMessage(to, "Prosses...")
+                    loli.sendMessage(to, "BOT SPEED IS")
                     elapsed_time = time.time() - start
                     loli.sendMessage(to,format(str(elapsed_time)))
                 elif text.lower() == 'restart':
-                    loli.sendMessage(to, "Restarting")
+                    loli.sendMessage(to, "RESTARTING")
                     time.sleep(5)
-                    loli.sendMessage(to, "Restart Sukses")
+                    loli.sendMessage(to, "RESTART SUCCESS")
+                    loli.sendMessage(to, "PLEASE LOGIN AGAIN")
                     restartBot()
                 elif text.lower() == 'runtime':
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    loli.sendMessage(to, "Bot sudah berjalan selama {}".format(str(runtime)))
+                    loli.sendMessage(to, "BOT RUN TIME IS {}".format(str(runtime)))
                 elif text.lower() == 'about':
                     try:
                         arr = []
@@ -402,9 +224,9 @@ def lineBot(op):
                         ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ About Selfbot ]"
-                        ret_ += "\n╠ Version : Beta Test"
-                        ret_ += "\n╠ Creator : {}".format(creator.displayName)
-                        ret_ += "\n╚══[ Dilarang Remake Tanpa Ijin :D ]"
+                        ret_ += "\n╠ Version : "12.1.1"
+                        ret_ += "\n╠ Creator : "Loli"
+                        ret_ += "\n╚══[ Selfbot by Loli ]"
                         loli.sendMessage(to, str(ret_))
                     except Exception as e:
                         loli.sendMessage(msg.to, str(e))
@@ -430,47 +252,47 @@ def lineBot(op):
                         loli.sendMessage(msg.to, str(e))
                 elif text.lower() == 'autoadd on':
                     settings["autoAdd"] = True
-                    loli.sendMessage(to, "Berhasil mengaktifkan Auto Add")
+                    loli.sendMessage(to, "AUTO ADD ON")
                 elif text.lower() == 'autoadd off':
                     settings["autoAdd"] = False
-                    loli.sendMessage(to, "Berhasil menonaktifkan Auto Add")
+                    loli.sendMessage(to, "AUTO ADD OFF")
                 elif text.lower() == 'autojoin on':
                     settings["autoJoin"] = True
-                    loli.sendMessage(to, "Berhasil mengaktifkan Auto Join")
+                    loli.sendMessage(to, "AUTO JOIN ON")
                 elif text.lower() == 'autojoin off':
                     settings["autoJoin"] = False
-                    loli.sendMessage(to, "Berhasil menonaktifkan Auto Join")
+                    loli.sendMessage(to, "AUTO JOIN OFF")
                 elif text.lower() == 'autoleave on':
                     settings["autoLeave"] = True
-                    loli.sendMessage(to, "Berhasil mengaktifkan Auto Leave")
+                    loli.sendMessage(to, "AUTO LEAVE ON")
                 elif text.lower() == 'autojoin off':
                     settings["autoLeave"] = False
-                    loli.sendMessage(to, "Berhasil menonaktifkan Auto Leave")
+                    loli.sendMessage(to, "AUTO LEAVE OFF")
                 elif text.lower() == 'autoread on':
                     settings["autoRead"] = True
-                    loli.sendMessage(to, "Berhasil mengaktifkan Auto Read")
+                    loli.sendMessage(to, "AUTO READ ON")
                 elif text.lower() == 'autoread off':
                     settings["autoRead"] = False
-                    loli.sendMessage(to, "Berhasil menonaktifkan Auto Read")
+                    loli.sendMessage(to, "AUTO READ OFF")
                 elif text.lower() == 'checksticker on':
                     settings["checkSticker"] = True
-                    loli.sendMessage(to, "Berhasil mengaktifkan Check Details Sticker")
+                    loli.sendMessage(to, "CHECK STICKER ON")
                 elif text.lower() == 'checksticker off':
                     settings["checkSticker"] = False
-                    loli.sendMessage(to, "Berhasil menonaktifkan Check Details Sticker")
+                    loli.sendMessage(to, "CHECK STICKER OFF")
                 elif text.lower() == 'detectmention on':
                     settings["datectMention"] = True
-                    loli.sendMessage(to, "Berhasil mengaktifkan Detect Mention")
+                    loli.sendMessage(to, "DETECTMENTION ON")
                 elif text.lower() == 'detectmention off':
                     settings["datectMention"] = False
-                    loli.sendMessage(to, "Berhasil menonaktifkan Detect Mention")
+                    loli.sendMessage(to, "DETECT MENTION OFF")
                 elif text.lower() == 'clonecontact':
                     settings["copy"] = True
                     loli.sendMessage(to, "Kirim Contact Yang Mau Di Copy")
 #==============================================================================#
                 elif text.lower() == 'me':
-                    sendMessageWithMention(to, loliMID)
                     loli.sendContact(to, loliMID)
+                    sendMessageWithMention(to, loliMID)
                 elif text.lower() == 'mymid':
                     loli.sendMessage(msg.to,"[MID]\n" +  loliMID)
                 elif text.lower() == 'myname':
