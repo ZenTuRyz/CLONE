@@ -224,7 +224,7 @@ def lineBot(op):
                         ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ About Selfbot ]"
-                        ret_ += "\n╠ Version : "12.1.1"
+                        ret_ += "\n╠ Version : "0.1.1"
                         ret_ += "\n╠ Creator : "Loli"
                         ret_ += "\n╚══[ Selfbot by Loli ]"
                         loli.sendMessage(to, str(ret_))
